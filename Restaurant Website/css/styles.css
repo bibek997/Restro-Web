@@ -1,0 +1,169 @@
+/* Index */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+.hero{
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero .text{
+  position: absolute;
+  color: rgb(224, 224, 224);
+  left: 100px;
+  top: 30px;
+  font-size: 30px;
+}
+
+.introduction {
+  border: 1px solid #ddd;
+  margin: 2rem 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.special-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.special-item {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 30%;
+}
+
+.special-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Menu */
+.title{
+  border: 1px solid #ddd;
+  margin: 2rem 0;
+  text-align: center;
+  padding: 10px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 30%;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contact */
+.contact-info, .contact-form {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  margin: 0.5rem 0;
+}
+
+.contact-form input, .contact-form textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 40%;
+}
+
+.contact-form button {
+  padding: 0.5rem 1rem;
+  background: #2311b0;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #555555;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  bottom: 0;
+  width: 100%;
+}
+.social-media img{
+  margin-left: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-item {
+      width: 100%;
+  }
+
+  nav ul li {
+      display: block;
+      margin: 0.5rem 0;
+  }
+}
